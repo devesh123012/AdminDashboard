@@ -1,0 +1,186 @@
+body
+{
+  margin:0;
+  padding:0;
+  background:#252B40;
+}
+# #octagon {
+#       width: 100px;
+#       height: 100px;
+#       background: red;
+#       position: relative;
+#     }
+#     #octagon:before {
+#       content: "";
+#       width: 100px;
+#       height: 0;
+#       position: absolute;
+#       top: 0;
+#       left: 0;
+#       border-bottom: 29px solid red;
+#       border-left: 29px solid #eee;
+#       border-right: 29px solid #eee;
+#     }
+#     #octagon:after {
+#       content: "";
+#       width: 100px;
+#       height: 0;
+#       position: absolute;
+#       bottom: 0;
+#       left: 0;
+#       border-top: 29px solid red;
+#       border-left: 29px solid #eee;
+#       border-right: 29px solid #eee;
+#     }  
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #313C54;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot1 {
+  height: 8px;
+  width: 8px;
+  background-color: #516AD4;
+  border-radius: 50%;
+  display: inline-block;
+}
+.bord
+{
+    border-left: 3px solid #6381EB;
+    margin-left:2%;
+}
+.back-container
+{
+  background:#AFB4C8;
+}
+.front-container
+{
+  background:#252B40;
+  margin-left: 10%;
+}
+.colbackground
+{
+  background:#252B40;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.topnav input[type=text] {
+  float:left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  background:transparent;
+}
+.textcol
+{
+  color:#586078;
+}
+.textcol1
+{
+  color:#00D395;
+}
+.textcol2
+{
+  color:#F94F5C;
+}
+.canvas{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+.badgecolour
+{
+  background:#4B62C1;
+}
+.badgecolour1
+{
+  background:#1F273D;
+}
+.badgecolour2
+{
+  background:#313C54;
+}
+#mapid 
+{
+ height: 180px; 
+}
+#world-map
+{
+background: blanchedalmond;
+}
+
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #252B40;
+  position: fixed;
+  height: 100%;
+  # overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #3F4A68;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #1F273D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+# ==================media query=====================
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display:none;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+.front-container
+{
+  
+  # margin-left: 0%;
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+    display:none;
+  }
+.front-container
+{
+  
+  margin-left: 0%;
+}
+
