@@ -1,8 +1,8 @@
 # AdminDashboard
-Installation Process
+Installation and run Process
 1.Download the zip file by clicking on cloneordownload button.
 2.Extract the zip file
-3.Install Wamp Server
+3.Install Wamp Server software from google
 4.Turn on the server by clicking on the logo
 4.After installation, go to C drive.
 5.Then go to wamp folder then www folder then copy the folder here and rename the folder as pivotchain.
